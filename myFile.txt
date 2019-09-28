@@ -1,5 +1,6 @@
 HI! This is snehal
 
+this is branch 2
 This is a new file
 This is a git pull example
 Java was developed by Sun  Microsystem
