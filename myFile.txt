@@ -1,7 +1,12 @@
 HI! This is snehal
 
 
+this is branch 2
+
+
 this is a master branch
+
 This is a new file
 This is a git pull example
-Java was developed by oracle
+Java was developed by Sun  Microsystem
+and it was accquired by Oracle
