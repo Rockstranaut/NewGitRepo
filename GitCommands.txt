@@ -1,58 +1,76 @@
-history
-    1  git init
-    2  git config --global user.name "Snehal"
-    3  git config --global user.email "snehal.magare@lntinfotech.com"
-    4  git add index1.html
-    5  git init
-    6  git add index1.html
-    7  git status
-    8  cd
-    9  cd DevOps
-   10  d:
-   11  cd d:
-   12  cd DevOps
-   13  git add *.txt
-   14  git status
-   15  git diff
-   16  git rm --cached index.html.txt
-   17  gut status
-   18  git status
-   19  git diff
-   20  git add *.txt
-   21  gt status
-   22  git status
-   23  git diff
-   24  git diff
-   25  git commit
-   26  git commit
-   27  git commit
-   28  git commmit -m "updating commit"
-   29  git commit -m "Updating Commit"
-   30  git commit -m "Updating Commit"
-   31  git diff
-   32  git commit -m "Updating Commit"
-   33  git add *.txt
-   34  git commit -m "Updating Commit"
-   35  git log
-   36  touch .gitignore
-   37  git add .
-   38  git add .
-   39  git status
-   40  git add .
-   41  git status
-   42  git rm --cached FILE1.xls
-   43  git add .
-   44  git status
-   45  git commit
-   46  touch .gitignore
-   47  git add .
-   48  git status
-   49  git log
-   50  git add .
-   51  git status
-   52  git add .
-   53  git status
-   54  git add .
-   55  git status
-   56  git history
-   57  history
+INITIALIZE GIT
+      git init
+
+
+CONFIGURE GIT
+      git config --global user.name "Snehal"
+      git config --global user.email "snehal.magare@lntinfotech.com"
+    
+ADD A SPECIFIC FILE TO GIT
+      git add index1.html
+   
+CHECK THE ADDED FILES
+      git status
+  
+   
+ADD ALL TEXT FILES
+     git add *.txt
+
+TO CHECK THE MODIFIED FILES
+     git diff
+
+TO REMOVE A FILE
+     git rm --cached index.html.txt
+ 
+COMMIT WITH A MESSAGE
+     git commmit -m "updating commit"
+  
+CHECKING LOG
+     git log
+
+CREATING A GIT-IGNORE FILE
+     touch .gitignore
+
+ROLL-BACK TO PREVIOUS VERSION
+
+     git commit -m "Text2 updated"
+     git show :text2.txt
+     git log
+     git reset f637223f6b18240de428b4927476812e51e5dfb2
+     git show :text2.txt
+
+CTRAETING A NEW BRANCH
+
+    git branch feature
+    git branch snehal
+
+LIST OF ALL BRANCH
+    git branch
+
+SWITCHING TO A BRANCH
+    git checkout snehal
+
+
+MERGE CONFLICT EXAMPLE
+
+
+   touch merge.txt
+   git add merge.txt
+   git commit -m "first merge commit"
+   git checkout -b merging_branch
+   git ls-files
+   git commit -am "edited commit"
+   git checkout master
+   git add .
+   git merge merge_branch
+   git commit -am "append content"
+   git merge merging_branch
+   git status
+   git add .
+   git show :merge.txt
+   git commit -am "Merge conflict resolved"
+
+
+TO LIST ALL FILES
+
+   git ls-files
